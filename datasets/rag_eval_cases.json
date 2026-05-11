@@ -1,0 +1,9 @@
+[
+  {
+    "question": "What is the refund policy?",
+    "expected_answer_contains": ["30 days", "receipt"],
+    "retrieved_context": "Customers may request a refund within 30 days with a receipt.",
+    "model_answer": "Customers may request a refund within 30 days if they have a receipt.",
+    "sources": ["refund-policy.pdf"]
+  }
+]

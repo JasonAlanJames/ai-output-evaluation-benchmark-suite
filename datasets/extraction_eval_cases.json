@@ -1,0 +1,16 @@
+[
+  {
+    "input_text": "Invoice #1234 for $250 due on 2026-05-30.",
+    "expected_output": {
+      "invoice_number": "1234",
+      "amount": 250,
+      "due_date": "2026-05-30"
+    },
+    "model_output": {
+      "invoice_number": "1234",
+      "amount": 250,
+      "due_date": "2026-05-30"
+    },
+    "required_fields": ["invoice_number", "amount", "due_date"]
+  }
+]
